@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>{% block title %}Welcome{% endblock %} &mdash; {{ config.meta.title }}</title>
+
+    <meta name="description" content="{{ config.meta.description }}">
+    <meta name="keywords"    content="{{ config.meta.keywords | join(', ') }}">
+{% for author in config.authors | shuffle %}
+    <meta name="author"      content="{{ author.name }} <{{ author.mail }}>">
+{% endfor %}
+  </head>
+
+  <body>
+  {% block hello %}Add welcome message here =){% endblock %}
+    <div id="header">
+        <img id="pinkhat-picture" src="{{ static('img/pinkhat-small-size.png') }}">
+    </div>
+
+  </body>
+</html>
