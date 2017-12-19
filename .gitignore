@@ -1,0 +1,18 @@
+# Local configuration
+secret.yml
+
+# Local files
+cache/*
+
+# Dolphin
+.directory
+
+# Jetbrains
+.idea/*
+
+# Apple
+.DS_Store
+
+# Python
+*.pyc
+venv/*
