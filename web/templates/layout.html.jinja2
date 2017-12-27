@@ -15,6 +15,7 @@
   </head>
 
   <body>
+
       <header class="navigation_bar">
           <!-- Navigation bar's buttons, NOT available for now -->
          <div class="nav_buttons">
@@ -35,32 +36,15 @@
                 </li>
                 <li>
                     <div class="date-container">
-                        <p class ="show-date" id="date"></p>
+                        <p class ="show-date" id="date" onload="time()"></p>
                     </div>
                 </li>
                 </div>
             </ul>
-<!-- Javascript : Get date ---------------------------------------------------------------->
-<!-- ??????? QUESTION:Js on a different file and methods called here ??-->
-<script>
-
-function addZero(i) {
-if (i < 10) {
-i = "0" + i;
-}
-return i;
-}
-setTimeout("timeClock()", 1000);
-n =  new Date();
-y = n.getFullYear();
-m = n.getMonth() + 1;
-d = n.getDate();
-h = addZero(n.getHours());
-min = addZero(n.getMinutes());
-document.getElementById("date").innerHTML = h + ":" + min + " | " + m + "/" + d + "/" + y;
-</script>
-
-        </div>
+         </div>
       </header>
+
+<script language="JavaScript" type="text/javascript" src="{{ static('js/javascript-methods.js') }}" />
+
   </body>
 </html>
