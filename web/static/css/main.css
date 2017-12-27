@@ -34,6 +34,13 @@ li a:hover {
     background-color: #e43ac5;
 }
 
+/****** Right aligned navigation bar *****/
+
+.nav-right{
+    float: right;
+    margin-left: 30px;
+}
+
 /****** Search input *****/
 li input{
    color: #302e27;   /* Dark Gray */
@@ -47,7 +54,7 @@ li input{
 }
 
 .search-container{
-margin-right: 200px;
+margin-right: 10px;
 }
 
 /****** Add icon to search bar ******/
@@ -60,12 +67,13 @@ margin-right: 200px;
 }
 
 /****** Date *****/
-.show-date{
-   border: 1px solid deeppink;
-   left: 90%;
-
+li p{
    margin-top: 15px;
-   font-size: small;
+   font-size: medium;
    font-family:"Comic Sans MS";
    color: #ffe4fd; /*Light Pink*/
+}
+
+.date-container{
+    margin-right: 10px;
 }
