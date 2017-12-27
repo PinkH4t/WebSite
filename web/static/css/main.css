@@ -1,0 +1,71 @@
+
+/** BODY SETTINGS**********************************************************/
+body {
+    background-color: black;
+
+}
+
+/** NAVIGATION BAR ************************************************************/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #302e27;   /* Dark Gray */
+}
+
+li {
+    float: left;
+}
+li a {
+    height: 30px;
+    display: block;
+    color: #ffe4fd; /* Light Pink */
+    font-size: medium;
+    font-family:"Comic Sans MS";
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* Change the link color to #e43ac5 (Fushia) on hover */
+li a:hover {
+    background-color: #e43ac5;
+}
+
+/****** Search input *****/
+li input{
+   color: #302e27;   /* Dark Gray */
+   font-size: small;
+   font-family:"Comic Sans MS";
+   text-indent: 20px;
+   border: 1px solid #ffe4fd; /*Light Pink*/
+   border-radius: 30px;
+   margin-top: 15px;
+   height: 20px;
+}
+
+.search-container{
+margin-right: 200px;
+}
+
+/****** Add icon to search bar ******/
+.search-container .icon{
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #4f5b66;
+}
+
+/****** Date *****/
+.show-date{
+   border: 1px solid deeppink;
+   left: 90%;
+
+   margin-top: 15px;
+   font-size: small;
+   font-family:"Comic Sans MS";
+   color: #ffe4fd; /*Light Pink*/
+}

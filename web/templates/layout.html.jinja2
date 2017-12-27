@@ -10,13 +10,53 @@
 {% for author in config.authors | shuffle %}
     <meta name="author"      content="{{ author.name }} <{{ author.mail }}>">
 {% endfor %}
+
+   <link rel="stylesheet" type="text/css" href="{{ static('css/main.css') }}">
   </head>
 
   <body>
-  {% block hello %}Add welcome message here =){% endblock %}
-    <div id="header">
-        <img id="pinkhat-picture" src="{{ static('img/pinkhat-small-size.png') }}">
-    </div>
+      <header class="navigation_bar">
+          <!-- Navigation bar's buttons, NOT available for now -->
+         <div class="nav_buttons">
+            <ul>
+                <li><img src="{{ static('img/icon.png') }}"></li>
+                <li><a class="buttons" href="">Articles</a></li>
+                <li><a class="buttons" href="">Projects</a></li>
+                <li><a class="buttons" href="">Jeux</a></li>
+                <li><a class="buttons" href="">Github</a></li>
 
+                <li><a class="buttons" href="">Suggestions</a></li>
+                <li style="float:right">
+                    <div class="search-container">
+                        <span class="icon"><img src="{{ static('img/search-icon.png') }}"></span>
+                        <input type="search" id="search" placeholder="Search..." />
+                    </div>
+                </li>
+                <li style="float:right">
+                    <p class ="show-date" id="date"></p>
+
+<!-- Javascript : Get date ---------------------------------------------------------------->
+<!-- ??????? QUESTION:Js on a different file and methods called here ??-->
+<script>
+
+function addZero(i) {
+if (i < 10) {
+i = "0" + i;
+}
+return i;
+}
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+h = addZero(n.getHours());
+min = addZero(n.getMinutes());
+document.getElementById("date").innerHTML = h + ":" + min + " | " + m + "/" + d + "/" + y;
+</script>
+                </li>
+            </ul>
+
+        </div>
+      </header>
   </body>
 </html>
