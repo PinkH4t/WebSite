@@ -1,0 +1,31 @@
+Idée pour site :
+
+Avant de commencer, j'ai ma favicon! Tu vas A-D-O-R-E-R.
+
+Page d'accueil
+
+- Photo Pinkhat prenant toute la page web sur fond noir.
+- Un bouton "Decouvre nos projets" pour accèder au contenu du site.
+- Choix de la langue en haut à droite de la page?? Ou on detecte la langue du user automatiquement ?
+
+	Question: Possible de faire une animation particulière avec le pc de la photo?
+		  un genre de zoom out pour avoir l'écran de l'ordinateur de pinkhat !
+
+
+Passons maintenant à la forme que prendra le site:		
+ 
+- Tu as dû le deviner ;) Ça prendra la forme d'un écran d'ordinateur ! la Favicon qui reviens
+comme icône de l'IOS. héhé
+- Une "Barre des tâches" en bas avec les différentes fonctionnalités : articles, projets, jeux, stream ... ski is the.. i stop there..
+- La photo "Pinkhat" demeure comme fond d'écran ( to keep it more pinky )
+
+
+	Question: Faire en sorte que ce que j'ai cité plus haut soit statique et que dépendament
+		  de l'onglet selectionné dans la "barre des tâches" un template spécifique s'affiche
+		  à "l'écran"!
+
+Sans oublié que je trouverais un moyen de casser une courte présentation du site là dedans.. et 
+pourquoi pas un "step to step" de comment le prendre en main s'il n'est pas "instinctif"!
+
+I've talked about my idea really fast to some people, they all seems to be ceptic.. BUT :
+I need it to be special and personnalized.. you know me, i love "Magic" !
