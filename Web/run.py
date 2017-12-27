@@ -49,6 +49,14 @@ def shuffle_filter(seq):
         return seq
 # ROUTING  ####################################################################
 
+#######   FAVICON <3 ########
+@app.route('/favicon.ico')
+def favicon():  # we want it served from the root, not from static/
+    return send_from_directory(
+        join(app.root_path, 'static', 'img'),
+        'favicon.ico', mimetype='image/vnd.microsoft.icon'
+    )
+
 @app.route('/')
 def hello_world():
     return render_template('home.html.jinja2')
