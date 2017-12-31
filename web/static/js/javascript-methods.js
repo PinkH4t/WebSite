@@ -8,14 +8,16 @@ return i;
 }
 
 function time() {
-n =  new Date();
+    document.getElementById("date").innerHTML= "Please show of !!";
+/*n =  new Date();
 y = n.getFullYear();
 m = n.getMonth() + 1;
 d = n.getDate();
 h = addZero(n.getHours());
 min = addZero(n.getMinutes());
 s = addZero(n.getSeconds());
-document.getElementById("date").innerHTML = h + ":" + min + ":" + s + " | " + m + "/" + d + "/" + y;
-setTimeout("time()", 1000);
+date = h + ":" + min + ":" + s + " | " + m + "/" + d + "/" + y;
+document.getElementById("date").innerHTML= "huhhh";
+setTimeout("time()", 1000);*/
 
 }
