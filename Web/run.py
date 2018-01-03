@@ -49,7 +49,7 @@ def shuffle_filter(seq):
         return seq
 # ROUTING  ####################################################################
 
-#######   FAVICON <3 ########
+#######   FAVICON <3  #########################################################
 @app.route('/favicon.ico')
 def favicon():  # we want it served from the root, not from static/
     return send_from_directory(
