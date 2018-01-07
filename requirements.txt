@@ -1,0 +1,12 @@
+## MAIN DEPENDENCIES
+
+Flask==0.12
+Jinja2==2.9.5
+MarkupSafe==1.0
+python-slugify==1.2.4
+
+
+## FILE FORMATS
+
+PyYAML==3.12
+Markdown==2.6.8
