@@ -16,3 +16,4 @@ cache/*
 # Python
 *.pyc
 venv/*
+web/static/js/jquery-3.2.1.min.js
