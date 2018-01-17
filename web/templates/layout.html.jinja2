@@ -15,7 +15,7 @@
    <link rel="stylesheet" type="text/css" href="{{ static('css/font-awesome.min.css') }}">
   </head>
 
-  <body onload="time()"> {% block containt %}Contenu{% endblock %}
+  <body onload="time()">
 
       <header class="navigation_bar">
           <!-- Navigation bar's buttons, NOT available for now -->
@@ -43,6 +43,12 @@
             </ul>
          </div>
       </header>
+
+      <div class="containt">
+          {% block containt %}
+              <p>HEEEEEYAAAAAAAAAAAAAAAAAAAA</p>
+          {% endblock %}
+      </div>
 
       <script language="JavaScript" type="text/javascript" src="{{ static('js/javascript-methods.js') }}"></script>
       <script language="JavaScript" type="text/javascript" src="{{ static('js/moment.min.js') }}"></script>
