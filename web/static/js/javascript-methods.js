@@ -12,5 +12,6 @@ function time() {
     var display_date = document.getElementById('date');
     display_date.innerHTML = date;
     setTimeout("time()", 3000);
+    window.onload=time();
 
 }

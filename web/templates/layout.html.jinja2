@@ -15,14 +15,14 @@
    <link rel="stylesheet" type="text/css" href="{{ static('css/font-awesome.min.css') }}">
   </head>
 
-  <body>
+  <body onload="time()"> {% block containt %}Contenu{% endblock %}
 
       <header class="navigation_bar">
           <!-- Navigation bar's buttons, NOT available for now -->
          <div class="nav_buttons">
             <ul>
                 <li><img src="{{ static('img/icon.png') }}"></li>
-                <li><a class="buttons " href=""><i class="fa fa-pencil"></i> Articles</a></li>
+                <li><a class="buttons " href="" ><i class="fa fa-pencil"></i> Articles</a></li>
                 <li><a class="buttons" href=""><i class="fa fa-github"></i> Github</a></li>
                 <li><a class="buttons" href=""><i class="fa fa-puzzle-piece"></i> Jeux</a></li>
                 <li><a class="buttons" href=""><i class="fa fa-lightbulb-o"></i> Suggestions</a></li>
@@ -36,7 +36,7 @@
                 </li>
                 <li>
                     <div class="date-container">
-                        <span class ="show-date" id="date" onload="time()">Uhh =( </span>
+                        <p class ="show-date" id="date"></p>
                     </div>
                 </li>
                 </div>
