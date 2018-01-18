@@ -8,10 +8,8 @@ return i;
 }
 
 function time() {
-    var date = moment().format('MMMM Do YYYY, h:mm:ss a'); // actual datetime
+    var date = moment().format('DD-MM-YYYY | h:mm a'); // actual datetime
     var display_date = document.getElementById('date');
     display_date.innerHTML = date;
-    setTimeout("time()", 3000);
-    window.onload=time();
 
 }
