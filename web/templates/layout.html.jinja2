@@ -42,7 +42,12 @@
               <p style="color: #e43ac5; text-align: left">HEEEEEYAAAAAAAAAAAAAAAAAAAA Jinja is Awesome !</p>
 
               {% block desktop %}
-                        <p style="color: #e43ac5; text-align: center">Icons Over Heree <3</p>
+                  <p style="color: #e43ac5; text-align: center">Icons Over Heree <3</p>
+
+                  {% block suggestion %} <p> Override in Suggestion Page !</p>{% endblock %}
+                  {% block library %} <p> Override in Library Page !</p>{% endblock %}
+                  {% block projects %} <p> Override in Projects Page !</p>{% endblock %}
+                  {% block games %} <p> Override in Games Page !</p>{% endblock %}
               {% endblock %}
 
           {% endblock %}
