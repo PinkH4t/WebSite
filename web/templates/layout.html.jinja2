@@ -20,23 +20,18 @@
       <header class="navigation_bar">
           <!-- Navigation bar's buttons, NOT available for now -->
          <div class="nav_buttons">
-            <ul>
-                <li><div class="ph-icon"><img src="{{ static('img/icon.png') }}"></div></li>
-                <li><a class="buttons " href="" >Bibliothèque  <i class="fa fa-sort-desc "></i></a></li>
-                <li><a class="buttons" href="">Projets  <i class="fa fa-sort-desc "></i></a></li>
-                <li><a class="buttons" href="">Jeux  <i class="fa fa-sort-desc "></i></a></li>
+            <ul class="nav-ul">
+                <li class="nav-li"><div class="ph-icon"><img src="{{ static('img/icon.png') }}"></div></li>
+                <li class="nav-li"><a class="buttons " href="" >Bibliothèque  <i class="fa fa-sort-desc "></i></a></li>
+                <li class="nav-li"><a class="buttons" href="">Projets  <i class="fa fa-sort-desc "></i></a></li>
+                <li class="nav-li"><a class="buttons" href="">Jeux  <i class="fa fa-sort-desc "></i></a></li>
                 <div class="nav-right">
-                <li >
-                    <div class="search-container">
-                        <span class="icon"><img src="{{ static('img/search-icon.png') }}"></span>
-                        <input type="search" id="search" placeholder="Search..." />
-                    </div>
-                </li>
-                <li>
-                    <div class="date-container">
+                    <li class="nav-li ">
+                        <input type="search" class="search-container" id="search" placeholder=" Rechercher.." />
+                    </li>
+                    <li class="nav-li" >
                         <p class ="show-date" id="date"></p>
-                    </div>
-                </li>
+                    </li>
                 </div>
             </ul>
          </div>
@@ -44,7 +39,12 @@
 
       <div class="containt">
           {% block containt %}
-              <p>HEEEEEYAAAAAAAAAAAAAAAAAAAA</p>
+              <p style="color: #e43ac5; text-align: left">HEEEEEYAAAAAAAAAAAAAAAAAAAA Jinja is Awesome !</p>
+
+              {% block desktop %}
+                        <p style="color: #e43ac5; text-align: center">Icons Over Heree <3</p>
+              {% endblock %}
+
           {% endblock %}
       </div>
 

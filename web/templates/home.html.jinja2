@@ -1,7 +1,22 @@
 {% extends 'layout.html.jinja2' %}
 {% set menu_section = 'home' %}
 {% block title %}Home{% endblock %}
-{% block containt %}<p style="color: #e43ac5 ">HEYAAAAA OVERRIDED!</p>{% endblock %}
+{% block containt %}
+    {% block desktop %}
+        <div class="desktop">
+
+            <div class="desktop-icons">
+                <ul class="desk-ul">
+                    <li class="desk-li">
+                        <a class="awesome-icon" href="">
+                            <i class="fa fa-file-text fa-3x "></i><br>
+                            Suggestion.txt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    {% endblock %}
+{% endblock %}
 
 {# This is the main templates file, along with the layout. #}
 {# The engine is Jinja2 #}
