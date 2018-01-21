@@ -41,13 +41,16 @@ navigation:
     children:
       - title: D&eacuteveloppement
         id: menu-dev
-        href: /developpement
+        href: /dev
       - title: S&eacutecurit&eacute num&eacuterique
-        id: menu-cs
-        href: /securite
+        id: menu-secu
+        href: /secu
       - title: Sensibilisation
         id: menu-sensi
-        href: /sensibilisation
+        href: /sensi
+      - title: Tutoriels
+        id: menu-tuto
+        href: /tuto
       - title: Lectures
         id: menu-read
         href: /lectures
@@ -55,14 +58,14 @@ navigation:
     id: nav-proj
     href:
     children:
-      - title: "Suggerez des projets !"
+      - title: Sugg&eacuterez des projets !
         id: menu-proj
         href: /suggestion
   - title: "Jeux"
     id: nav-game
     href:
     children:
-      - title: "Suggerez des jeux !"
+      - title: Sugg&eacuraterez des jeux !
         id: menu-game
         href: /suggestion
 

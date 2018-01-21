@@ -79,7 +79,7 @@ body {
 .navigation-bar .nav-ul .right-nav-li .search-container{
     display: block;
     font-size: small;
-    border: 1px solid #ffe4fd; /*Light Pink*/
+    border: 1px solid #310228;
     border-radius: 30px;
     margin-top: 13px;
     width: 200px;
@@ -99,7 +99,8 @@ body {
 }
 
 /*DROP DOWN MENU **************************************************************/
-
+/*Question: When right click on a link, the drop down menu disappear. How to
+make it stay in place !?*/
 .navigation-bar .menu-ul .menu-li:hover > a{
     color:#310228;
 }
