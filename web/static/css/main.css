@@ -16,13 +16,13 @@ body {
   margin: 0;
   height: 50px;
   position:relative;
+  display: inherit;
 }
 
 .ph-icon img{
     height: 50px;
     width: 50px;
 }
-
 .navigation-bar .nav-ul{
   background: #310228;
   list-style:none;
@@ -34,11 +34,11 @@ body {
 .navigation-bar .nav-ul .nav-li{
     height: 50px;
     float: left;
-    display: inline-block;
+    display: inherit;
 }
 
-.navigation-bar ul li a{
-    color: #ffffff;
+.navigation-bar .nav-ul .nav-li a{
+    color: #e258c8;
     display: block;
     float: left;
     font-size: medium;
@@ -48,21 +48,20 @@ body {
     text-align: center;
 }
 
-.navigation-bar ul li:hover{
-    background: #e258c8;
+.navigation-bar .nav-ul .nav-li:hover{
+    background: #f8f3f6;
 }
 
-.navigation-bar ul li:hover > a{
-    color:#310228;
+.navigation-bar .nav-ul .nav-li:hover > a{
+    color:#e258c8;
 }
 
-.navigation-bar ul li:hover ul{
+.navigation-bar .nav-ul .nav-li:hover .menu-ul{
     display: block;
 
 }
-
-.navigation-bar .nav-ul ul  {
-    background: #310228;
+.navigation-bar .nav-ul .menu-ul{
+    background: #f8f3f6;
     padding: 0;
     text-align: center;
     position: absolute;
@@ -72,25 +71,56 @@ body {
     z-index:1;
 }
 
-
-.navigation-bar .menu-ul{
-    display: block;
+.navigation-bar .nav-ul .right-nav-li{
+    height: 50px;
+    float: right;
+    display: inherit;
 }
+.navigation-bar .nav-ul .right-nav-li .search-container{
+    display: block;
+    font-size: small;
+    border: 1px solid #ffe4fd; /*Light Pink*/
+    border-radius: 30px;
+    margin-top: 13px;
+    width: 200px;
+    height: 24px;
+
+}
+
+.navigation-bar .nav-ul .right-nav-li .show-date{
+    color: #e258c8;
+    display: block;
+    float: left;
+    width: 150px;
+    font-size: medium;
+    font-family:"Trebuchet MS";
+    text-decoration: none;
+    text-align: center;
+}
+
+/*DROP DOWN MENU **************************************************************/
+
+.navigation-bar .menu-ul .menu-li:hover > a{
+    color:#310228;
+}
+
+.navigation-bar .menu-ul .menu-li a{
+    color: #e258c8;
+    display: block;
+    float: left;
+    font-size: medium;
+    font-family:"Trebuchet MS";
+    text-decoration: none;
+    padding: 15px 20px;
+    text-align: center;
+}
+
 .navigation-bar .menu-ul .menu-li{
+    min-width: 230px;
     height: 50px;
     float: left;
-    display: inline;
+    display: inline-block;
 }
-
-.menu-ul li:hover{
-    background: #e258c8;
-}
-
-.menu-ul li:hover > a{
-    color: #310228;
-}
-
-
 
 /** DESKTOP ICONS ************************************************************/
 .desktop{

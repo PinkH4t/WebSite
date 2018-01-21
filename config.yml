@@ -42,9 +42,9 @@ navigation:
       - title: D&eacuteveloppement
         id: menu-dev
         href: /developpement
-      - title: Cyber S&eacutecurit&eacute
+      - title: S&eacutecurit&eacute num&eacuterique
         id: menu-cs
-        href: /cybersecurite
+        href: /securite
       - title: Sensibilisation
         id: menu-sensi
         href: /sensibilisation
