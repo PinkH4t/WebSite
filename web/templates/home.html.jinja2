@@ -8,9 +8,12 @@
             <div class="desktop-icons">
                 <ul class="desk-ul">
                     <li class="desk-li">
+                        {% for icons in config.icon %}
                         <a class="awesome-icon" href="">
                             <i class="fa fa-file-text fa-2x "></i><br>
-                            Suggestion.txt</a>
+                        {{ icons.title }}
+                        </a>
+                        {% endfor %}
                     </li>
                 </ul>
             </div>

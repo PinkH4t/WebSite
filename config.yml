@@ -69,6 +69,12 @@ navigation:
         id: menu-game
         href: /suggestion
 
+# Icons
+icon:
+  - title: Suggestion.txt
+    id: icon-suggest
+    href: /suggestion
+
 
 colors:
     Desktop background : 000000

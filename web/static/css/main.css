@@ -122,35 +122,3 @@ make it stay in place !?*/
     float: left;
     display: inline-block;
 }
-
-/** DESKTOP ICONS ************************************************************/
-.desktop{
-    padding-top: 1%;
-    width: 10%;
-}
-.desk-ul{
-    list-style-type: none;
-    width: 6%;
-    margin-left: 0px;
-    float: right;
-    height: 100%; /* Full height */
-    position: fixed; /* Make it stick, even on scroll */
-    overflow: auto; /* Enable scrolling if the sidenav has too much content */
-}
-
-.desk-li{
-    color: #ffe4fd;
-}
-
-.awesome-icon{
-    text-decoration: none;
-    color: #f8f3f6;
-    text-align: center;
-    font-size: medium;
-    font-family: "Trebuchet MS";
-}
-.fa-file-text{
-    color: #f8f3f6;
-    margin-left: 30%;
-
-}
