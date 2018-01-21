@@ -65,22 +65,47 @@ navigation:
     id: nav-game
     href:
     children:
-      - title: Sugg&eacuraterez des jeux !
+      - title: Sugg&eacuterez des jeux !
         id: menu-game
         href: /suggestion
 
 # Icons
-icon:
-  - title: Suggestion.txt
-    id: icon-suggest
-    href: /suggestion
+suggestion:
+  title: Suggestion.txt
+  id: icon-suggest
+  href: /suggestion
+
+#### Those icons are incoming :)
+keyboard:
+  title: " Ctrl + U "
+  id: icon-keyboard
+
+discord:
+  title: Join us on discord :D
+  id: icon-discord
+  href:
+
+twitter:
+  title: Twit Twit
+  id: icon-twit
+  href:
+
+github:
+  title: follow us
+  id: icon-github
+  href:
+
+
+
 
 
 colors:
-    Desktop background : 000000
-    Navigation bar background : 310228
-    Navigation bar hover : e258c8
-    Navigation bar text : FFFFFF
-    Very light pink: f8f3f6
-    Very pinky pink: e43ac5
-    Medium light pink: ed9bde
+    desktop-background : 000000
+    nav-bar-backgroud : 310228
+    nav-bar-hover : f8f3f6
+    nav-bar-text : e258c8
+    drop-down-menu-background: f8f3f6
+    drop-down-menu-hover: 310228
+    drop-down-menu-text: e258c8
+    supp-one: e43ac5
+    supp-two: ed9bde

@@ -1,22 +1,21 @@
 {% extends 'layout.html.jinja2' %}
 {% set menu_section = 'home' %}
 {% block title %}Home{% endblock %}
-{% block containt %}
+{% block content %}
     {% block desktop %}
         <div class="desktop">
-
-            <div class="desktop-icons">
+            {% block lefticons %}
+            <div class="left-side-icons">
                 <ul class="desk-ul">
                     <li class="desk-li">
-                        {% for icons in config.icon %}
-                        <a class="awesome-icon" href="">
+                        <a class="suggestion-icon" href="">
                             <i class="fa fa-file-text fa-2x "></i><br>
-                        {{ icons.title }}
+                            <p>{{ config.suggestion.title}}</p>
                         </a>
-                        {% endfor %}
                     </li>
                 </ul>
             </div>
+            {% endblock %}
         </div>
     {% endblock %}
 {% endblock %}

@@ -17,6 +17,7 @@
   </head>
 
   <body onload="time()">
+
       <div class="navigation-bar">
         <ul class="nav-ul">
             <li class="nav-li">
@@ -47,27 +48,16 @@
             <li class="right-nav-li">
                 <input type="search" class="search-container" id="search" placeholder=" Rechercher.." />
             </li>
-
-
-
         </ul>
       </div>
-
-      <div class="containt">
-          {% block containt %}
-              <p style="color: #e43ac5; text-align: left">HEEEEEYAAAAAAAAAAAAAAAAAAAA Jinja is Awesome !</p>
-
+          {% block content %}
               {% block desktop %}
-                  <p style="color: #e43ac5; text-align: center">Icons Over Heree <3</p>
-
-                  {% block suggestion %} <p> Override in Suggestion Page !</p>{% endblock %}
-                  {% block library %} <p> Override in Library Page !</p>{% endblock %}
-                  {% block projects %} <p> Override in Projects Page !</p>{% endblock %}
-                  {% block games %} <p> Override in Games Page !</p>{% endblock %}
+                  {% block lefticons %}
+                      <p style="color: #e43ac5; text-align: center">Icons Over Heree <3</p>
+                      {% block suggestion %} <p> Override in Suggestion Page !</p>{% endblock %}
+                  {% endblock %}
               {% endblock %}
-
           {% endblock %}
-      </div>
 
       <script language="JavaScript" type="text/javascript" src="{{ static('js/javascript-methods.js') }}"></script>
       <script language="JavaScript" type="text/javascript" src="{{ static('js/moment.min.js') }}"></script>

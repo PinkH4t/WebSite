@@ -1,31 +1,45 @@
 
 /** DESKTOP ICONS ************************************************************/
 .desktop{
-    padding-top: 1%;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+    position: absolute;
+}
+
+/* LEFT SIDE ICONS************************************************************/
+.desktop .left-side-icons{
     width: 10%;
+    height: 90%;
+    z-index: 1;
+    position: absolute;
 }
 .desk-ul{
     list-style-type: none;
     width: 6%;
-    margin-left: 0px;
+    padding-top: 1%;
     float: right;
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
-
 .desk-li{
     color: #ffe4fd;
+    margin-left: 5%;
 }
-
-.awesome-icon{
+/* Suggestion icon*/
+.suggestion-icon p{
     text-decoration: none;
     color: #f8f3f6;
     text-align: center;
     font-size: medium;
+    margin-top: 2%;
     font-family: "Trebuchet MS";
 }
 .fa-file-text{
+    padding-top: 10px;
     color: #f8f3f6;
     margin-left: 30%;
 
