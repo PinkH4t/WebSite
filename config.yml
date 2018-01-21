@@ -25,22 +25,30 @@ header:
         - text: "Dont worry, Be pinky !"
          # href: "https://ec.europa.eu/programmes/horizon2020/"
 
+# A list of authors that will appear in the HTML metadata and possibly in the
+# authorship page as well. The order does not matter, it will be shuffled.
+authors:
+    - name: Pink MeowCoder
+      mail: lagentillemiu@gmail.com
+    - name: Pink Flexapunk
+      mail: antoine@goutenoir.com
+
 # Navigation bar
 navigation:
   - title: Biblioth&egrave;que
     id: nav-biblio
     href:
     children:
-      - title: "Développement"
+      - title: D&eaigueveloppement
         id: menu-dev
         href: /developpement
-      - title: "Cyber Sécurité"
+      - title: Cyber S&eaiguecurit&eaigue
         id: menu-cs
         href: /cybersecurite
-      - title: "Sensibilisation"
+      - title: Sensibilisation
         id: menu-sensi
         href: /sensibilisation
-      - title: "Lectures"
+      - title: Lectures
         id: menu-read
         href: /lectures
   - title: "Projets"
@@ -57,13 +65,7 @@ navigation:
       - title: "Suggerez des jeux !"
         id: menu-game
         href: /suggestion
-# A list of authors that will appear in the HTML metadata and possibly in the
-# authorship page as well. The order does not matter, it will be shuffled.
-authors:
-    - name: Pink MeowCoder
-      mail: lagentillemiu@gmail.com
-    - name: Pink Flexapunk
-      mail: antoine@goutenoir.com
+
 
 colors:
     Desktop background : 000000
