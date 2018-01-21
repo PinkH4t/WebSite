@@ -43,6 +43,10 @@
     color: #ffe4fd;
     margin-left: 5%;
 }
+
+.suggestion-icon{
+    text-decoration: none;
+}
 /* Suggestion icon*/
 .suggestion-icon p{
     text-decoration: none;
