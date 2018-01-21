@@ -10,14 +10,14 @@
 
 .desktop .desktop-logo{
     padding-top: 3%;
-    padding-left: 30%;
+    padding-left: 13%;
     position: absolute;
     z-index: 0;
 }
 
 .logo{
-    width: 600px;
-    height: 600px;
+    width: 1200px;
+    height: 606px;
     opacity: 0.50;
 }
 
