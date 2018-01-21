@@ -1,5 +1,4 @@
-
-/** DESKTOP ICONS ************************************************************/
+/* DESKTOP *******************************************************************/
 .desktop{
     width: 100%;
     height: 100%;
@@ -9,7 +8,22 @@
     position: absolute;
 }
 
-/* LEFT SIDE ICONS************************************************************/
+.desktop .desktop-logo{
+    padding-top: 3%;
+    padding-left: 30%;
+    position: absolute;
+    z-index: 0;
+}
+
+.logo{
+    width: 600px;
+    height: 600px;
+    opacity: 0.50;
+}
+
+
+/** DESKTOP ICONS ************************************************************/
+/* LEFT SIDE ICONS*******/
 .desktop .left-side-icons{
     width: 10%;
     height: 90%;
@@ -35,7 +49,7 @@
     color: #f8f3f6;
     text-align: center;
     font-size: medium;
-    margin-top: 2%;
+    margin-top: 4%;
     font-family: "Trebuchet MS";
 }
 .fa-file-text{

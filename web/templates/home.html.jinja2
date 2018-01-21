@@ -4,12 +4,15 @@
 {% block content %}
     {% block desktop %}
         <div class="desktop">
+            <div class="desktop-logo">
+                <img class="logo" src="{{ static('img/Logo.png') }}">
+            </div>
             {% block lefticons %}
             <div class="left-side-icons">
                 <ul class="desk-ul">
                     <li class="desk-li">
                         <a class="suggestion-icon" href="">
-                            <i class="fa fa-file-text fa-2x "></i><br>
+                            <i class="fa fa-file-text fa-3x "></i><br>
                             <p>{{ config.suggestion.title}}</p>
                         </a>
                     </li>
