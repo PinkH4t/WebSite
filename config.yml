@@ -39,10 +39,10 @@ navigation:
     id: nav-biblio
     href:
     children:
-      - title: D&eaigueveloppement
+      - title: D&eacuteveloppement
         id: menu-dev
         href: /developpement
-      - title: Cyber S&eaiguecurit&eaigue
+      - title: Cyber S&eacutecurit&eacute
         id: menu-cs
         href: /cybersecurite
       - title: Sensibilisation

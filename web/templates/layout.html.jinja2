@@ -17,15 +17,29 @@
 
   <body onload="time()">
       <div class="navigation-bar">
-        <ul>
-            <li>
+        <ul class="nav-ul">
+            <li class="nav-li">
                 <div class="ph-icon"><img src="{{ static('img/icon.png') }}"></div>
             </li>
             {% for navItems in config.navigation %}
-            <li>
-                <a class="buttons" href="">{{ navItems.title }} <i class="fa fa-sort-desc "></i></a>
-            </li>
+            <div class="button-menu">
+                <li class="nav-li">
+                    <a class="buttons" href="">{{ navItems.title }} <i class="fa fa-sort-desc "></i></a>
+                    <ul class="menu-ul" >
+                            <li class="menu-li">
+                                <a class="menu-buttons" href=""><i class="fa fa-heart"></i> Heeeeeeeeyaaaa</a><br>
+                            </li>
+                            <li class="menu-li">
+                                <a class="menu-buttons" href=""><i class="fa fa-heart"></i> Heeeeeeeeyaaaa</a><br>
+                            </li>
+                    </ul>
+                </li>
+            </div>
             {% endfor %}
+            <li class="nav-li">
+                <a c href="">I <i class="fa fa-heart"></i> Flask & Jinja2</a>
+            </li>
+
 
         </ul>
       </div>

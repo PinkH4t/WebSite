@@ -1,21 +1,13 @@
-          /*<nav class="nav-bar">
-              <ul class="nav-ul">
-                  <li class="nav-li"><div class="ph-icon"><img src="{{ static('img/icon.png') }}"></div></li>
-                  {% for navigationItems in config.navigation %}
-                  <li class="nav-li">
-                      <a class="buttons ">{{ navigationItems.title }} </a>
-                      <ul class="menu-ul">
-                          {% for child in navigationItems.children %}
-                          <li class="menu-ul">
-                            <a class="menu-buttons ">{{ child.title }}</a>
-                          </li>
-                          {% endfor %}
-                      </ul>
-                  </li>
-                  {% endfor %}
-              </ul>
-          </nav>*/
-
+               /* <li class="nav-li">
+                    <a class="buttons" href="">{{ navItems.title }} <i class="fa fa-sort-desc "></i></a>
+                    <ul class="menu-ul" >
+                        {% for child in navItems.children %}
+                            <li class="menu-li">
+                                <a class="menu-buttons" href="">{{ child.title }}</a><br>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </li>*/
 
 /** NAVIGATION BAR ************************************************************/
 

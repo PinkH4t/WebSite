@@ -23,8 +23,7 @@ body {
     width: 50px;
 }
 
-.navigation-bar ul{
-    border: solid 1px deeppink;
+.navigation-bar .nav-ul{
   background: #310228;
   list-style:none;
   padding:0 0px;
@@ -32,7 +31,7 @@ body {
   height: 50px;
 }
 
-.navigation-bar ul li{
+.navigation-bar .nav-ul .nav-li{
     height: 50px;
     float: left;
     display: inline-block;
@@ -56,6 +55,41 @@ body {
 .navigation-bar ul li:hover > a{
     color:#310228;
 }
+
+.navigation-bar ul li:hover ul{
+    display: block;
+
+}
+
+.navigation-bar .nav-ul ul  {
+    background: #310228;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    height: auto;
+    display: none;
+    top: 50px;
+    z-index:1;
+}
+
+
+.navigation-bar .menu-ul{
+    display: block;
+}
+.navigation-bar .menu-ul .menu-li{
+    height: 50px;
+    float: left;
+    display: inline;
+}
+
+.menu-ul li:hover{
+    background: #e258c8;
+}
+
+.menu-ul li:hover > a{
+    color: #310228;
+}
+
 
 
 /** DESKTOP ICONS ************************************************************/
