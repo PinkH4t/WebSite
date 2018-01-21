@@ -18,15 +18,45 @@ meta:
 
 # The top bar
 header:
-    title: Welcome to Pinkhat
+    title: "Welcome to Pinkhat"
     links:
-        - text: Logo
+        - text: "Logo"
          # href: "https://onlinelibrary.wiley.com/doi/10.1029/2004JA010959/abstract"
-        - text: Dont worry, Be pinky !
+        - text: "Dont worry, Be pinky !"
          # href: "https://ec.europa.eu/programmes/horizon2020/"
 
-
-
+# Navigation bar
+navigation:
+  - title: Biblioth&egrave;que
+    id: nav-biblio
+    href:
+    children:
+      - title: "Développement"
+        id: menu-dev
+        href: /developpement
+      - title: "Cyber Sécurité"
+        id: menu-cs
+        href: /cybersecurite
+      - title: "Sensibilisation"
+        id: menu-sensi
+        href: /sensibilisation
+      - title: "Lectures"
+        id: menu-read
+        href: /lectures
+  - title: "Projets"
+    id: nav-proj
+    href:
+    children:
+      - title: "Suggerez des projets !"
+        id: menu-proj
+        href: /suggestion
+  - title: "Jeux"
+    id: nav-game
+    href:
+    children:
+      - title: "Suggerez des jeux !"
+        id: menu-game
+        href: /suggestion
 # A list of authors that will appear in the HTML metadata and possibly in the
 # authorship page as well. The order does not matter, it will be shuffled.
 authors:
@@ -35,3 +65,11 @@ authors:
     - name: Pink Flexapunk
       mail: antoine@goutenoir.com
 
+colors:
+    Desktop background : 000000
+    Navigation bar background : 310228
+    Navigation bar hover : e258c8
+    Navigation bar text : FFFFFF
+    Very light pink: f8f3f6
+    Very pinky pink: e43ac5
+    Medium light pink: ed9bde

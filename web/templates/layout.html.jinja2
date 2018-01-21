@@ -22,9 +22,15 @@
          <div class="nav_buttons">
             <ul class="nav-ul">
                 <li class="nav-li"><div class="ph-icon"><img src="{{ static('img/icon.png') }}"></div></li>
-                <li class="nav-li"><a class="buttons " href="" >Bibliothèque  <i class="fa fa-sort-desc "></i></a></li>
-                <li class="nav-li"><a class="buttons" href="">Projets  <i class="fa fa-sort-desc "></i></a></li>
-                <li class="nav-li"><a class="buttons" href="">Jeux  <i class="fa fa-sort-desc "></i></a></li>
+                {% for navigationItem in config.navigation %}
+                <li class="nav-li"><a class="buttons ">{{ navigationItem.title }} <i class="fa fa-sort-desc ">
+                    <div class="biblio-menu">
+                        <ul>
+
+                        </ul>
+                    </div>
+                </i></a></li>
+                {% endfor %}
                 <div class="nav-right">
                     <li class="nav-li ">
                         <input type="search" class="search-container" id="search" placeholder=" Rechercher.." />

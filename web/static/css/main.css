@@ -1,7 +1,7 @@
 
-/** BODY SETTINGS**********************************************************/
+/** BODY SETTINGS**************************************************************/
 body {
-    background-color: black;
+    background-color: #000000;
     margin: 0;
     padding: 0;
 
@@ -9,38 +9,37 @@ body {
 
 /** NAVIGATION BAR ************************************************************/
 
-/** Question: How to remove the spaces on top, left and right of the navbar? **/
 /*LEFT SIDE*/
 .nav-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #302e27;   /* Dark Gray */
+    background-color: #310228;
 }
 
 .nav-li {
     float: left;
-    height: 40px;
+    height: 50px;
 }
 
 .ph-icon img{
-    height: 36px;
-    width: 36px;
+    height: 50px;
+    width: 50px;
 }
 .nav-li a {
-    height: 30px;
+    height: 50px;
     display: block;
-    color: #ffe4fd; /* Light Pink */
+    color: #ffffff;
     font-size: medium;
     font-family:"Trebuchet MS";
     text-align: center;
-    padding: 10px 20px;
+    padding: 15px 20px;
     text-decoration: none;
 }
 
-.nav-li a:hover {
-    background-color: #e43ac5;
+.nav-li a:hover, .nav-li a:focus {
+    background-color: #e258c8;
 }
 
 /*RIGHT SIDE*/
@@ -52,28 +51,29 @@ body {
 
 /****** Search input *****/
 .nav-li .search-container{
-   color: #302e27;   /* Dark Gray */
+   color: #310228;
    font-size: small;
    font-family:"Trebuchet MS";
    text-indent: 2px;
-   border: 1px solid #ffe4fd; /*Light Pink*/
+   border: 1px solid #310228;
    border-radius: 30px;
-   margin-top: 10px;
+   margin-top: 15px;
    height: 20px;
 }
 
 .search-container{
-margin-right: 25px;
+margin-right: 5px;
 }
 
 
 /****** Date *****/
 .show-date{
    font-size: 12px;
-   height: 36px;
    width: 150px;
+   padding-top: 8px;
+   padding-left: 5px;
    font-family:"Trebuchet MS";
-   color: #ffe4fd; /*Light Pink*/
+   color: #FFFFFF;
 }
 
 /** DESKTOP ICONS ************************************************************/
@@ -84,9 +84,8 @@ margin-right: 25px;
 .desk-ul{
     list-style-type: none;
     width: 6%;
-    margin-left: auto;
+    margin-left: 0px;
     float: right;
-    background-color: black;
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
@@ -98,13 +97,13 @@ margin-right: 25px;
 
 .awesome-icon{
     text-decoration: none;
-    color: #ffe4fd;
+    color: #f8f3f6;
     text-align: center;
     font-size: medium;
     font-family: "Trebuchet MS";
 }
 .fa-file-text{
-    color: #ffe4fd;
+    color: #f8f3f6;
     margin-left: 30%;
 
 }
