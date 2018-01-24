@@ -32,17 +32,20 @@ authors:
       mail: lagentillemiu@gmail.com
     - name: Pink Flexapunk
       mail: antoine@goutenoir.com
+    - name: Pink Hvri
+      mail: hvri.condor@gmail.com
 
 # Navigation bar
+# Change encoding utf-8 patching when start working on GNU/Linux <3
 navigation:
-  - title: Biblioth&egrave;que
+  - title: Bibliothèque
     id: nav-biblio
     href:
     children:
-      - title: D&eacuteveloppement
+      - title: Développement
         id: menu-dev
         href: /dev
-      - title: S&eacutecurit&eacute num&eacuterique
+      - title: Sécurit&eacute numérique
         id: menu-secu
         href: /secu
       - title: Sensibilisation
@@ -58,14 +61,14 @@ navigation:
     id: nav-proj
     href:
     children:
-      - title: Sugg&eacuterez des projets !
+      - title: Suggérez des projets !
         id: menu-proj
         href: /suggestion
   - title: "Jeux"
     id: nav-game
     href:
     children:
-      - title: Sugg&eacuterez des jeux !
+      - title: Suggérez des jeux !
         id: menu-game
         href: /suggestion
 
