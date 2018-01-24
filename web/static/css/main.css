@@ -4,6 +4,8 @@ body {
     background-color: #000000;
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -121,4 +123,7 @@ make it stay in place !?*/
     height: 50px;
     float: left;
     display: inline-block;
+}
+.search-container{
+    text-indent: 5%;
 }
