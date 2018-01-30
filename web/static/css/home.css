@@ -21,7 +21,6 @@
     opacity: 0.50;
 }
 
-
 /** DESKTOP ICONS ************************************************************/
 /* LEFT SIDE ICONS*******/
 .desktop .left-side-icons{
@@ -32,20 +31,23 @@
 }
 .desk-ul{
     list-style-type: none;
-    width: 6%;
-    padding-top: 1%;
+    margin: 0;
     float: right;
-    height: 100%; /* Full height */
-    position: fixed; /* Make it stick, even on scroll */
-    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    height: 90%; /* Full height */
+    position: fixed;
 }
 .desk-li{
     color: #ffe4fd;
+    margin-top: 15%;
 }
 
 .suggestion-icon{
     text-decoration: none;
+    padding-top: 10%;
+    outline: 0;
+
 }
+
 /* Suggestion icon*/
 .suggestion-icon p{
     text-decoration: none;
