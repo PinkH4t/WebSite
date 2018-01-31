@@ -1,1 +1,3 @@
-Test Git Cli =D Nihahahha this is A VERY BIG CONFLIT
+
+Test Git Cli =D Conflict resolved ! fiouu that was hard !
+
