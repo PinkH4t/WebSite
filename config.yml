@@ -38,25 +38,38 @@ authors:
 # Navigation bar
 # Change encoding utf-8 patching when start working on GNU/Linux <3
 navigation:
-  - title: Bibliothèque
+  - title: "Bibliothèque"
     id: nav-biblio
-    href:
+    href: /biblio
     children:
-      - title: Développement
-        id: menu-dev
-        href: /dev
-      - title: Sécurit&eacute numérique
+      - title: " Développement Web"
+        id: menu-web
+        href: /biblio/devweb
+        font: "fa fa-code "
+      - title: " Programmation"
+        id: menu-prog
+        href: /biblio/programmation
+        font: "fa fa-coffee "
+      - title: " Sécurité"
         id: menu-secu
-        href: /secu
-      - title: Sensibilisation
+        href: /biblio/securite
+        font: "fa fa-lock "
+      - title: " Sensibilisation"
         id: menu-sensi
-        href: /sensi
-      - title: Tutoriels
+        href: /biblio/sensibilisation
+        font: "fa fa-bullhorn "
+      - title: " Systèmes et Matériels"
+        id: menu-sysm
+        href: /biblio/sysm
+        font: "fa fa-cogs "
+      - title: " Tutoriels"
         id: menu-tuto
-        href: /tuto
-      - title: Lectures
-        id: menu-read
-        href: /lectures
+        href: /biblio/tutoriels
+        font: "fa fa-pencil "
+      - title: " Livres"
+        id: menu-books
+        href: /livres
+        font: "fa fa-book "
   - title: "Projets"
     id: nav-proj
     href:
@@ -77,4 +90,3 @@ suggestion:
   title: Suggestion.txt
   id: icon-suggest
   href: /suggestion
-

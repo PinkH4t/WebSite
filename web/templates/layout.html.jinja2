@@ -31,7 +31,7 @@
                         <div class="dropdown">
                             {% for child in navItems.children %}
                             <li class="menu-li">
-                                <a class="menu-buttons" href=""><i class="fa fa-book"></i> {{ child.title }}</a>
+                                <a class="menu-buttons" href=""><i class="{{ child.font }}"></i> {{ child.title }}</a>
                             </li><br>
                             {% endfor %}
                         </div>
