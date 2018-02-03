@@ -26,27 +26,12 @@
             {% for navItems in config.navigation %}
             <div class="button-menu">
                 <li class="nav-li">
-                    <a class="buttons" href="">{{ navItems.title }} <i class="fa fa-sort-desc "></i></a>
-                    <ul class="menu-ul" >
-                        <div class="dropdown">
-                            {% for child in navItems.children %}
-                            <li class="menu-li">
-                                <a class="menu-buttons" href=""><i class="{{ child.font }}"></i> {{ child.title }}</a>
-                            </li><br>
-                            {% endfor %}
-                        </div>
-                    </ul>
+                    <a class="buttons" href=""><i class="{{ navItems.font }}"></i>{{ navItems.title }} </a>
                 </li>
             </div>
             {% endfor %}
-            <li class="nav-li">
-                <a c href="">I <i class="fa fa-heart fa-lg"></i> Flask & Jinja2</a>
-            </li>
             <li class="right-nav-li">
                 <p class ="show-date" id="date"></p>
-            </li>
-            <li class="right-nav-li">
-                <input type="search" class="search-container" id="search" placeholder=" Rechercher.." />
             </li>
         </ul>
       </div>
@@ -60,7 +45,7 @@
           {% endblock %}
 
       <script language="JavaScript" type="text/javascript" src="{{ static('js/javascript-methods.js') }}"></script>
-      <script language="JavaScript" type="text/javascript" src="{{ static('js/moment.min.js') }}"></script>
+      <script language="JavaScript" type="text/javascript" src="{{ static('js/moment.js') }}"></script>
 
   </body>
 </html>
