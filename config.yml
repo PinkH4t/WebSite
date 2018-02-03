@@ -41,49 +41,11 @@ navigation:
   - title: "Bibliothèque"
     id: nav-biblio
     href: /biblio
-    children:
-      - title: " Développement Web"
-        id: menu-web
-        href: /biblio/devweb
-        font: "fa fa-code "
-      - title: " Programmation"
-        id: menu-prog
-        href: /biblio/programmation
-        font: "fa fa-coffee "
-      - title: " Sécurité"
-        id: menu-secu
-        href: /biblio/securite
-        font: "fa fa-lock "
-      - title: " Sensibilisation"
-        id: menu-sensi
-        href: /biblio/sensibilisation
-        font: "fa fa-bullhorn "
-      - title: " Systèmes et Matériels"
-        id: menu-sysm
-        href: /biblio/sysm
-        font: "fa fa-cogs "
-      - title: " Tutoriels"
-        id: menu-tuto
-        href: /biblio/tutoriels
-        font: "fa fa-pencil "
-      - title: " Livres"
-        id: menu-books
-        href: /livres
-        font: "fa fa-book "
-  - title: "Projets"
-    id: nav-proj
-    href:
-    children:
-      - title: Suggérez des projets !
-        id: menu-proj
-        href: /suggestion
-  - title: "Jeux"
-    id: nav-game
-    href:
-    children:
-      - title: Suggérez des jeux !
-        id: menu-game
-        href: /suggestion
+    font: "fa fa-book"
+  - title: "Flask & Jinja2"
+    id: nav-flask
+    href: /flask-jinja2
+    font: "fa fa-heart"
 
 # Icons
 suggestion:
