@@ -10,12 +10,14 @@
             {% block lefticons %}
             <div class="left-side-icons">
                 <ul class="desk-ul">
+                    {% for icons in config.icons %}
                     <li class="desk-li">
-                        <a class="suggestion-icon" href="">
-                            <i class="fa fa-file-text fa-3x "></i><br>
-                            <p>{{ config.suggestion.title}}</p>
+                        <a class="icons" href="">
+                            <i class="{{ icons.font }} font-icon "></i><br>
+                            <p>{{ icons.title}}</p>
                         </a>
                     </li>
+                    {% endfor %}
                 </ul>
             </div>
             {% endblock %}

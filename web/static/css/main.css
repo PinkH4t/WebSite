@@ -17,7 +17,7 @@ body {
   padding: 0;
   margin: 0;
   height: 40px;
-  position:relative;
+  position:fixed;
   display: inherit;
 }
 
@@ -66,4 +66,5 @@ body {
     font-family:"Trebuchet MS";
     text-decoration: none;
     text-align: center;
+    margin-right: 5%;
 }

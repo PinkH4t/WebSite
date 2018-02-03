@@ -35,48 +35,17 @@ authors:
     - name: Pink Hvri
       mail: hvri.condor@gmail.com
 
-# Navigation bar
-# Change encoding utf-8 patching when start working on GNU/Linux <3
-navigation:
-  - title: Bibliothèque
-    id: nav-biblio
-    href:
-    children:
-      - title: Développement
-        id: menu-dev
-        href: /dev
-      - title: Sécurit&eacute numérique
-        id: menu-secu
-        href: /secu
-      - title: Sensibilisation
-        id: menu-sensi
-        href: /sensi
-      - title: Tutoriels
-        id: menu-tuto
-        href: /tuto
-      - title: Lectures
-        id: menu-read
-        href: /lectures
-  - title: "Projets"
-    id: nav-proj
-    href:
-    children:
-      - title: Suggérez des projets !
-        id: menu-proj
-        href: /suggestion
-  - title: "Jeux"
-    id: nav-game
-    href:
-    children:
-      - title: Suggérez des jeux !
-        id: menu-game
-        href: /suggestion
-
 # Icons
-suggestion:
-  title: Suggestion.txt
-  id: icon-suggest
-  href: /suggestion
+icons:
+  - title: Bibliothèque
+    id: icon-biblio
+    href: /bibliotheque
+    font: "fa fa-book fa-3x "
+  - title: Suggestion
+    id: icon-suggest
+    href: /suggestion
+    font: "fa fa-file-text fa-3x "
+
 
 #### Those icons are incoming :)
 keyboard:

@@ -11,7 +11,7 @@
 .desktop .desktop-logo{
     padding-top: 3%;
     padding-left: 13%;
-    position: absolute;
+    position: fixed;
     z-index: 0;
 }
 
@@ -24,8 +24,9 @@
 /** DESKTOP ICONS ************************************************************/
 /* LEFT SIDE ICONS*******/
 .desktop .left-side-icons{
-    width: 10%;
-    height: 90%;
+    padding-top: 2.5%;
+    width: 200px;
+    height: 700px;
     z-index: 1;
     position: absolute;
 }
@@ -33,33 +34,34 @@
     list-style-type: none;
     margin: 0;
     float: right;
-    height: 90%; /* Full height */
     position: fixed;
 }
-.desk-li{
-    color: #ffe4fd;
-    margin-top: 15%;
-}
 
-.suggestion-icon{
+.desk-li .icons{
+    color: #ffe4fd;
     text-decoration: none;
-    padding-top: 10%;
+    text-align: center;
     outline: 0;
 
 }
 
+.desk-li .icons:hover{
+    color: #9C1A1C;
+}
+
+.icons .fa{
+    padding-top: 10px;
+    color: #f8f3f6;
+    padding-left: 33%;
+
+}
+
 /* Suggestion icon*/
-.suggestion-icon p{
+.icons p{
     text-decoration: none;
     color: #f8f3f6;
     text-align: center;
     font-size: medium;
-    margin-top: 4%;
+    margin-top: 6%;
     font-family: "Trebuchet MS";
-}
-.fa-file-text{
-    padding-top: 10px;
-    color: #f8f3f6;
-    margin-left: 30%;
-
 }
