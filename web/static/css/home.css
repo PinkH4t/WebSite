@@ -1,24 +1,12 @@
 /* DESKTOP *******************************************************************/
 .desktop{
+    background-color: #000000;
     width: 100%;
     height: 100%;
     padding: 0;
-    margin: 0;
+    margin-top: 50px;
     z-index: 0;
     position: absolute;
-}
-
-.desktop .desktop-logo{
-    padding-top: 3%;
-    padding-left: 13%;
-    position: absolute;
-    z-index: 0;
-}
-
-.logo{
-    width: 1200px;
-    height: 606px;
-    opacity: 0.50;
 }
 
 /** DESKTOP ICONS ************************************************************/
@@ -55,7 +43,7 @@
     text-align: center;
     font-size: medium;
     margin-top: 4%;
-    font-family: "Trebuchet MS";
+    font-family: "Courier 10 Pitch";
 }
 .fa-file-text{
     padding-top: 10px;
