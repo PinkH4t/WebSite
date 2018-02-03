@@ -16,25 +16,25 @@ body {
   background: #310228;
   padding: 0;
   margin: 0;
-  height: 50px;
+  height: 40px;
   position:relative;
   display: inherit;
 }
 
 .ph-icon img{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
 }
 .navigation-bar .nav-ul{
   background: #310228;
   list-style:none;
   padding:0 0px;
   margin: 0;
-  height: 50px;
+  height: 40px;
 }
 
 .navigation-bar .nav-ul .nav-li{
-    height: 50px;
+    height: 40px;
     float: left;
     display: inherit;
 }
@@ -50,43 +50,11 @@ body {
     text-align: center;
 }
 
-.navigation-bar .nav-ul .nav-li:hover{
-    background: #f8f3f6;
-}
-
-.navigation-bar .nav-ul .nav-li:hover > a{
-    color:#e258c8;
-}
-
-.navigation-bar .nav-ul .nav-li:hover .menu-ul{
-    display: block;
-
-}
-.navigation-bar .nav-ul .menu-ul{
-    background: #f8f3f6;
-    padding: 0;
-    text-align: center;
-    position: absolute;
-    height: auto;
-    display: none;
-    top: 50px;
-    z-index:1;
-}
 
 .navigation-bar .nav-ul .right-nav-li{
-    height: 50px;
+    height: 40px;
     float: right;
     display: inherit;
-}
-.navigation-bar .nav-ul .right-nav-li .search-container{
-    display: block;
-    font-size: small;
-    border: 1px solid #310228;
-    border-radius: 30px;
-    margin-top: 13px;
-    width: 200px;
-    height: 24px;
-
 }
 
 .navigation-bar .nav-ul .right-nav-li .show-date{
@@ -98,32 +66,4 @@ body {
     font-family:"Trebuchet MS";
     text-decoration: none;
     text-align: center;
-}
-
-/*DROP DOWN MENU **************************************************************/
-/*Question: When right click on a link, the drop down menu disappear. How to
-make it stay in place !?*/
-.navigation-bar .menu-ul .menu-li:hover > a{
-    color:#310228;
-}
-
-.navigation-bar .menu-ul .menu-li a{
-    color: #e258c8;
-    display: block;
-    float: left;
-    font-size: medium;
-    font-family:"Trebuchet MS";
-    text-decoration: none;
-    padding: 15px 20px;
-    text-align: center;
-}
-
-.navigation-bar .menu-ul .menu-li{
-    min-width: 230px;
-    height: 50px;
-    float: left;
-    display: inline-block;
-}
-.search-container{
-    text-indent: 5%;
 }
