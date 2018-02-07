@@ -28,11 +28,18 @@ body {
         margin-bottom: 0px;
         border-color:  #ffd0df;
 }
+
+
 #costum-navbar.navbar .navbar-toggle{
-        border-color: #ffd0df;
+        border-color: black;
         background-color: black;
-        color: #ffd0df;
+        color: black;
 }
+
+#costum-navbar.navbar .navbar-toggle .icon-bar.icon-bar{
+        background-color:  #ffd0df;
+}
+
 #costum-navbar.navbar .collapse{
         border-color: #ffd0df;
         background-color: #ffd0df;
@@ -43,11 +50,6 @@ body {
         border-color: #ffd0df;
 }
 
-#costum-navbar.navbar .collapsed{
-        border-color: #ffd0df;
-        background-color: grey;
-        color: #ffd0df;
-}
 #costum-navbar.navbar .container-fluid{
         background-color:  #ffd0df;
         border-color:  #ffd0df;
@@ -56,4 +58,5 @@ body {
 }
 #costum-navbar.navbar .navbar-brand{
         padding: 0;
+        height: 56px;
 }
