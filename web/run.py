@@ -3,6 +3,7 @@ from os.path import isfile, join, abspath, dirname
 from flask import render_template
 from yaml import load as yaml_load
 from flask import url_for, send_from_directory, abort as abort_flask
+from flask_bootstrap import Bootstrap
 import random
 
 
@@ -23,7 +24,7 @@ with open(get_path('config.yml'),'r') as config_file:
 
 # CREATE FLASK APP ############################################################
 app = Flask(__name__)
-
+Bootstrap(app)
 
 def static_global(filename):
     return url_for('static', filename=filename)

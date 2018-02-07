@@ -5,72 +5,55 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
+    position: fixed;
 
 }
 
 /** NAVIGATION BAR ************************************************************/
-.navigation-bar{
-  text-align:center;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  height: 50px;
-  position:fixed;
-  display: inherit;
+#costum-navbar.navbar{
+        margin-bottom: 0px;
+        border: 0px;
 }
 
-.ph-icon img{
-    height: 45px;
-    width: 160px;
+#costum-navbar.navbar a{
+        color: black;
+        padding-top: 20px;
+
 }
-.navigation-bar .nav-ul{
-  background: #ffd0df;
-  list-style:none;
-  padding:0 0px;
-  margin: 0;
-  height: 50px;
+#costum-navbar.navbar a:hover{
+        background-color: #fd86aa;
 }
 
-.navigation-bar .nav-ul .nav-li{
-    height: 50px;
-    float: left;
-    display: inherit;
+#costum-navbar.navbar .navbar-inverse{
+        margin-bottom: 0px;
+        border-color:  #ffd0df;
+}
+#costum-navbar.navbar .navbar-toggle{
+        border-color: #ffd0df;
+        background-color: black;
+        color: #ffd0df;
+}
+#costum-navbar.navbar .collapse{
+        border-color: #ffd0df;
+        background-color: #ffd0df;
+        color: #ffd0df;
 }
 
-.navigation-bar .nav-ul .nav-li a{
-    color: black;
-    display: block;
-    float: left;
-    font-size: medium;
-    font-family:"Courier 10 Pitch";
-    text-decoration: none;
-    padding: 17px 20px;
-    text-align: center;
+#costum-navbar.navbar .collapsing{
+        border-color: #ffd0df;
 }
 
-.navigation-bar .nav-ul .nav-li .fa{
-    margin-right: 5px;
+#costum-navbar.navbar .collapsed{
+        border-color: #ffd0df;
+        background-color: grey;
+        color: #ffd0df;
 }
-
-
-.navigation-bar .nav-ul .nav-li a:hover{
-    background: #fd86aa;
+#costum-navbar.navbar .container-fluid{
+        background-color:  #ffd0df;
+        border-color:  #ffd0df;
+        font-size: medium;
+        font-family:"Courier 10 Pitch";
 }
-
-
-.navigation-bar .nav-ul .right-nav-li{
-    height: 50px;
-    float: right;
-    display: inherit;
-}
-
-.navigation-bar .nav-ul .right-nav-li .show-date{
-    color: black;
-    display: block;
-    float: left;
-    width: 200px;
-    font-size: medium;
-    font-family:"Courier 10 Pitch";
-    text-decoration: none;
-    text-align: center;
+#costum-navbar.navbar .navbar-brand{
+        padding: 0;
 }

@@ -14,27 +14,37 @@
    <link rel="stylesheet" type="text/css" href="{{ static('css/main.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ static('css/home.css') }}">
    <link rel="stylesheet" type="text/css" href="{{ static('css/font-awesome.min.css') }}">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
 
   <body onload="time()">
-
-      <div class="navigation-bar">
-        <ul class="nav-ul">
-            <li class="nav-li">
-                <div class="ph-icon"><img src="{{ static('img/icon.png') }}"></div>
-            </li>
-            {% for navItems in config.navigation %}
-            <div class="button-menu">
-                <li class="nav-li">
-                    <a class="buttons" href=""><i class="{{ navItems.font }}"></i>{{ navItems.title }} </a>
-                </li>
+        {% block navbar %}
+        <nav id="costum-navbar" class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><img src="{{ static('img/icon.png') }}"></a>
             </div>
-            {% endfor %}
-            <li class="right-nav-li">
-                <p class ="show-date" id="date"></p>
-            </li>
-        </ul>
-      </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                {% for navItems in config.navigation %}
+                    <li><a href="#"><i class="{{ navItems.font }}"> </i> {{ navItems.title }}</a></li>
+                {% endfor %}
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        {% endblock %}
+
           {% block content %}
               {% block desktop %}
                   {% block lefticons %}
